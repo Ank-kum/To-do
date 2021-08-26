@@ -1,0 +1,13 @@
+body{
+    background-color:aquamarine;
+    font-size: 15pt;
+}
+.markAsDone{
+    background-color: red;
+}
+.markInProgress{
+    background-color: yellow;
+}
+.remove{
+    display:none;
+}
