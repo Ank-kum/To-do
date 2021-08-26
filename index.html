@@ -1,0 +1,23 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="todo.css"/>
+    </head>
+    <body>
+        <h1>My ToDo List</h1>
+        
+        <div class="addTodo">
+            <label for="todoInput">Input task</label>
+            <input id="todoInput" maxlength="30" placeholder="Enter Todo"></input>
+            <label for="due">Due by</label>
+            <input type="datetime-local" id="due";></input>
+            <button id="addButton">Add</button>
+            <button id="deleteAll" onclick = "document.getElementById('toDoList').style.display='none'">Clear All</button>
+        </div>
+
+        <div id="toDoList" >
+            <p> Your Tasks:</p>
+        </div>
+
+        <script src="todo.js"></script>
+    </body>
+</html>   
